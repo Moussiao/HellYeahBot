@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hell-yeah-bot"
+version = "0.1.0"
+description = "Twitch bot for HellYeahPlay"
+authors = ["Илья Нестеренко <ilya-nest@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "hell_yeah_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
