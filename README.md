@@ -6,3 +6,5 @@ What need to do:
 ## Ideas:
 
 ## TODO:
+
+1. Meticulous setting of the linter
